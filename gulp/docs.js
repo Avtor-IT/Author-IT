@@ -21,7 +21,6 @@ const changed = require('gulp-changed');
 // Images
 const webp = require('gulp-webp');
 
-
 gulp.task('clean:docs', function (done) {
 	if (fs.existsSync('./docs/')) {
 		return gulp
