@@ -1264,7 +1264,7 @@ main {
 }
 
 .Bitrix__table {
-    padding-left: 133px;
+    padding-left: 98px;
 }
 
 /* секция Bitrix__rates */
@@ -1350,12 +1350,10 @@ main {
 /* контейнер для всех строк */
 
 .Bitrix__container-rates__support {
-    margin: 35px 0 52px;
+    margin: 35px 0 0;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    height: 660px;
-    padding: 0 16px 17px;
+    padding: 0 16px;
 }
 
 /* контейнер для строки */
@@ -1364,13 +1362,13 @@ main {
     display: flex;
     width: 1167px;
     border-top: 1px solid #707077;
-    padding: 19px 0;
+    padding: 19px 0 19px 10px;
 }
 
 /* контейнер для названия услуги */
 
 .Bitrix__container-rates__support-name {
-    width: 255px;
+    width: 211px;
     color: #232323;
 }
 
@@ -1379,22 +1377,28 @@ main {
 .Bitrix__container-rates__support-scale {
     display: flex;
     justify-content: space-between;
-    width: 910px;
-    padding: 0 101px 0 16px;
+    gap: 178px;
+    width: 946px;
+    padding: 0 101px 0 41px;
 }
 
-.support-scale__3col {
-    justify-content: end !important;
-    gap: 195px;
+.Bitrix__container-rates__support-scale-3col {
+    display: flex;
+    gap: 170px;
+    width: inherit;
 }
 
-.support-scale__2col {
-    justify-content: end !important;
-    gap: 195px;
+.Bitrix__container-rates__support-scale-2col {
+    display: flex;
+    justify-content: end;
+    padding-right: 77px;
+    gap: 170px;
+    width: inherit;
 }
 
-.support-scale__1col {
-    justify-content: end !important;
+.Bitrix__container-rates__support-scale-1col {
+    justify-content: end;
+    gap: 253px;
 }
 
 /* контейнер для услуг */
@@ -1435,9 +1439,7 @@ main {
 .Bitrix__container-services__rows {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    height: 428px;
-    padding: 0 16px 17px;
+    padding: 0 16px;
 }
 
 /* контейнер для строки */
@@ -1461,6 +1463,7 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    text-align: center;
     gap: 155px;
     width: 912px;
     padding: 0 89px 0 64px;
@@ -1516,9 +1519,6 @@ main {
     top: 230px;
     right: 50px;
 }
-
-
-
 
 /* заголовок */
 
@@ -1609,13 +1609,7 @@ main {
     border-bottom: 1px solid #707077;
 }
 
-
-
 /* секция Bitrix__rates */
-
-.BitrixPortal__container-rates-services {
-    height: auto;
-}
 
 .BitrixPortal__container-rates__types {
     height: 118px;
@@ -1634,7 +1628,7 @@ main {
 
 .BitrixPortal__rate__descr {
     color: #232323;
-    font-family: "Unbounded-Black"; 
+    font-family: "Unbounded-Regular"; 
     font-size: 16px;
     font-weight: 700;
     margin-top: 16px;
@@ -1642,11 +1636,12 @@ main {
 
 .BitrixPortal__rate__price {
     margin-top: 16px;
+    font-size: 19px;
 }
 
 .BitrixPortal__rate__typeDescr-typePrice {
     display: flex;
-    gap: 16px;
+    gap: 54px;
 }
 
 .BitrixPortal__rate__typeName {
@@ -1657,16 +1652,24 @@ main {
 }
 
 .BitrixPortal__container-rates__support {
-    height: 198px; 
-    margin-bottom: 18px;
+    margin-bottom: 0px;
 }
 
 .BitrixPortal__container-rates__support-scale {
-    padding: 0 74px 0 72px;
+    padding: 0 53px 0 79px;
+    justify-content: inherit;
+    gap: 185px;
+}
+
+.BitrixPortal__container-rates__support-scale-4col {
+    display: flex;
+    justify-content: space-between;
+    width: inherit;
 }
 
 .BitrixPortal__container-rates__support-scale-3col {
-    padding: 0 74px 0 249px;
+    padding: 0 53px 0 315px;
+    gap: 0;
 }
 
 .BitrixPortal__rates-services__btn {
