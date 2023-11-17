@@ -1,1 +1,8 @@
 node_modules
+build
+gulp
+webpack.config.js
+package-lock.json
+package.json
+gulpfile.js
+Пакеты.txt
