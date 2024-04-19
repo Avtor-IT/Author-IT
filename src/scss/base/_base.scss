@@ -1,5 +1,5 @@
 html {
-	scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 * {
@@ -9,20 +9,21 @@ html {
 }
 
 body::-webkit-scrollbar {
-    width: .8vw;               /* width of the entire scrollbar */
+    width: 0.8vw; /* width of the entire scrollbar */
 }
-  
+
 body::-webkit-scrollbar-track {
-    background: #181818;        /* color of the tracking area */
+    background: #181818; /* color of the tracking area */
 }
 
 body::-webkit-scrollbar-thumb {
-    background-color: #0A7272;    /* color of the scroll thumb */
-    border-radius: 10px;       /* roundness of the scroll thumb */
+    background-color: #0a7272; /* color of the scroll thumb */
+    border-radius: 10px; /* roundness of the scroll thumb */
     border: 1px solid #181818;
 }
 
-body, html {
+body,
+html {
     scroll-behavior: smooth;
 }
 
@@ -31,14 +32,14 @@ body {
 }
 
 h1 {
-    font-family: "Unbounded-Black";
+    font-family: 'Unbounded-Black';
     font-size: 96px;
     font-weight: 900;
     text-transform: uppercase;
 }
 
 h2 {
-    font-family: "Unbounded-Black";
+    font-family: 'Unbounded-Black';
     font-size: 64px;
     font-weight: 900;
 }
@@ -62,9 +63,20 @@ p {
     color: var(--caption16-color);
 }
 
+/* Styles for bitrix widget */
+
+.b24-widget-button-position-bottom-right {
+    right: 20px !important;
+    bottom: 120px !important;
+}
+
+.b24-window button {
+    padding: 0 !important;
+}
+
 .subtitle24 {
     color: #000;
-    font-family: "Unbounded-Regular";
+    font-family: 'Unbounded-Regular';
     font-size: 24px;
     font-weight: 400;
 }
@@ -93,14 +105,14 @@ p {
     --caption16-font-size: 14px;
     --caption16-font-weight: 400;
     --caption16-color: #232323;
-    --subtitle24-color: #F5F6FF;
-    --subtitle24-font-family: "Unbounded-Regular";
+    --subtitle24-color: #f5f6ff;
+    --subtitle24-font-family: 'Unbounded-Regular';
     --subtitle24-font-size: 24px;
 }
 
 button {
     font-family: var(--caption16-font-family);
-    background-color: #FF7D04;
+    background-color: #ff7d04;
     border-radius: 40px;
     border: none;
     padding: 24px 80px 24px 75px;
@@ -108,11 +120,11 @@ button {
 }
 
 button:hover {
-    background-color: #FF9330;
+    background-color: #ff9330;
 }
 
 button:active {
-    background-color: #EC7202;
+    background-color: #ec7202;
 }
 
 button:focus {
@@ -130,14 +142,15 @@ main {
     margin: 0 auto;
 }
 
-.services-page, .services-mailer-footer {
+.services-page,
+.services-mailer-footer {
     overflow: hidden;
 }
 
 .BitrixCloud__white-bg {
     position: relative;
     width: 1266px;
-    background: #F5F6FF;
+    background: #f5f6ff;
     border-radius: 40px;
     margin: 0 auto 58px auto;
 }
@@ -187,7 +200,7 @@ main {
 .Bitrix__top-white-bg {
     position: relative;
     width: 1266px;
-    background: #F5F6FF;
+    background: #f5f6ff;
     border-top-right-radius: 40px;
     border-top-left-radius: 40px;
     margin: 0 auto;
@@ -196,14 +209,14 @@ main {
 .Bitrix__white-bg {
     position: relative;
     width: 1266px;
-    background: #F5F6FF;
+    background: #f5f6ff;
     margin: 0 auto;
 }
 
 .Bitrix__bottom-white-bg {
     position: relative;
     width: 1266px;
-    background: #F5F6FF;
+    background: #f5f6ff;
     margin: 0 auto;
 }
 
@@ -214,7 +227,7 @@ main {
     justify-content: space-between;
     margin: 0 auto;
     padding: 33px 31px;
-    align-items:center;
+    align-items: center;
 }
 
 .Bitrix__container-rates-services {
@@ -229,8 +242,8 @@ main {
 @media (max-width: 1300px) {
     /* доп. страницы битрикса*/
     .Bitrix__top-white-bg,
-    .Bitrix__white-bg, 
-    .Bitrix__bottom-white-bg,    
+    .Bitrix__white-bg,
+    .Bitrix__bottom-white-bg,
     .Bitrix__black-bg {
         width: 992px;
     }
@@ -242,8 +255,8 @@ main {
 @media (max-width: 992px) {
     /* доп. страницы битрикса*/
     .Bitrix__top-white-bg,
-    .Bitrix__white-bg, 
-    .Bitrix__bottom-white-bg,    
+    .Bitrix__white-bg,
+    .Bitrix__bottom-white-bg,
     .Bitrix__black-bg {
         width: 768px;
     }
@@ -271,9 +284,9 @@ main {
         display: flex !important;
     }
     body::-webkit-scrollbar-thumb {
-        background-color: #0A7272;    /* color of the scroll thumb */
-        border-radius: 10px;       /* roundness of the scroll thumb */
-        border: .2px solid #181818;
+        background-color: #0a7272; /* color of the scroll thumb */
+        border-radius: 10px; /* roundness of the scroll thumb */
+        border: 0.2px solid #181818;
     }
 }
 
@@ -287,8 +300,8 @@ main {
     }
     /* доп. страницы битрикса*/
     .Bitrix__top-white-bg,
-    .Bitrix__white-bg, 
-    .Bitrix__bottom-white-bg,    
+    .Bitrix__white-bg,
+    .Bitrix__bottom-white-bg,
     .Bitrix__black-bg {
         width: 360px;
     }
@@ -307,10 +320,10 @@ main {
     /*?????*/
     .before-click h2 {
         font-size: 32px;
-    }    
+    }
     .before-click p {
         font-size: 16px;
-    }    
+    }
     /* страница О нас */
     .AboutUs__none768 {
         display: block;
@@ -320,14 +333,13 @@ main {
     }
 }
 
-
 /* шрифты */
 
 @font-face {
-    font-family: "Unbounded-Regular"; 
-    src: url("../fonts/Unbounded-Regular.ttf") format("truetype");
+    font-family: 'Unbounded-Regular';
+    src: url('../fonts/Unbounded-Regular.ttf') format('truetype');
 }
 @font-face {
-    font-family: "Unbounded-Black"; 
-    src: url("../fonts/Unbounded-Black.ttf") format("truetype");
+    font-family: 'Unbounded-Black';
+    src: url('../fonts/Unbounded-Black.ttf') format('truetype');
 }

@@ -234,22 +234,21 @@ h2 {
   font-size: 64px;
 }
 
-.subtitle24,
-h3,
-p {
-  font-family: "Open Sans",sans-serif;
-}
-
-.subtitle24,
 h3 {
+  font-family: "Open Sans",sans-serif;
   font-size: 24px;
-  font-weight: 700;
 }
 
 .container__text__slider__union h4,
-h4 {
+h4,
+p {
   font-family: "Open Sans",sans-serif;
   font-size: 16px;
+}
+
+.container__text__slider__union h4,
+h3,
+h4 {
   font-weight: 700;
 }
 
@@ -257,14 +256,27 @@ p {
   color: var(--caption16-color);
 }
 
-.subtitle24 {
-  color: #000;
-  font-family: "Unbounded-Regular";
+.b24-widget-button-position-bottom-right {
+  right: 20px!important;
+  bottom: 120px!important;
+}
+
+.b24-window button {
+  padding: 0!important;
+}
+
+.subtitle24,
+p {
   font-weight: 400;
 }
 
-.caption16,
-p {
+.subtitle24 {
+  color: #000;
+  font-family: "Unbounded-Regular";
+  font-size: 24px;
+}
+
+.caption16 {
   font-size: 16px;
   font-weight: 400;
 }
@@ -291,7 +303,7 @@ p {
   --caption16-font-size: 14px;
   --caption16-font-weight: 400;
   --caption16-color: #232323;
-  --subtitle24-color: #F5F6FF;
+  --subtitle24-color: #f5f6ff;
   --subtitle24-font-family: "Unbounded-Regular";
   --subtitle24-font-size: 24px;
 }
